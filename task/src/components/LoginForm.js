@@ -12,6 +12,7 @@ const LoginForm = ({ onSubmit }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div>
+      <h1>Login Page </h1>
         <label htmlFor="username">Username:</label>
         <input
           type="text"
@@ -21,6 +22,7 @@ const LoginForm = ({ onSubmit }) => {
         />
       </div>
       <div>
+        
         <label htmlFor="password">Password:</label>
         <input
           type="password"
